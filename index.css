@@ -1,0 +1,61 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+.main-form {
+    width: 600px;
+}
+
+.colors {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.color {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.color__label {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.color__value {
+    margin-top: 10px;
+}
+
+.color__visual,
+.result__visual {
+    display: block;
+    width: 25px;
+    height: 25px;
+    border: 1px solid gray;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.result__output {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.result__link {
+    color: #000000;
+    text-decoration: none;
+}

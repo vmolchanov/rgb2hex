@@ -1,0 +1,12 @@
+{
+  "name": "rgb2hex",
+  "version": "1.0.0",
+  "homepage": "https://vmolchanov.github.io/rgb2hex",
+  "scripts": {
+    "deploy": "rm -rf node_modules/gh-pages/.cache && gh-pages -d build"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
